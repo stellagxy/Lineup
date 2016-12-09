@@ -4,19 +4,20 @@
   font-family: 'Quattrocento Sans', sans-serif;
 }
 header{
-  color:white;
-padding-bottom: 3em;
+color:white;
+padding-top: 1.5em;
 font:18px/1.6 'Quattrocento Sans', sans-serif;
 }
+
 #back{
   text-align: right;
   padding-right:2em;
 
 }
-#back a:link{
+#back a {
   color:white;
-    text-decoration: none;
-     font-family: 'Special Elite', cursive;
+  text-decoration: none;
+  font-family: 'Special Elite', cursive;
 }
 .cont_principal {
   position: absolute;
