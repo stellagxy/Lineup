@@ -163,6 +163,6 @@ var bourbon = require('node-bourbon');
 bourbon.includePaths // Array of Bourbon paths 
 
 // Start up server on port 3000 on host localhost
-var server = app.listen(3000, function () {
+var server = app.listen(process.env.PORT||3000, function () {
   console.log('Server on localhost listening on port 3000');
 });
